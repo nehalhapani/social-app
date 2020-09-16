@@ -6,9 +6,7 @@ import {
   Text,
   Image,
   StatusBar,
-  FlatList,
   ScrollView,
-  TouchableOpacity,
   TouchableWithoutFeedback,
 } from 'react-native';
 import Header from '../screens/Header';
