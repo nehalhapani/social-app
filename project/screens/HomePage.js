@@ -39,13 +39,7 @@ const HomeScreen = ({navigation}) => {
             </View>
             <View style={HomePageStyle.profile}>
               <TouchableWithoutFeedback
-                onPress={() => navigation.navigate('Profile')}
-
-                // navigation.navigate('ProfileScreen', {
-                //   itemID: 1,
-                //   otherParam: 'Anything you want here!',
-                // })
-              >
+                onPress={() => navigation.navigate('Profile')}>
                 <Image
                   source={require('../assets/images/profile.png')}
                   style={HomePageStyle.profileimg}
